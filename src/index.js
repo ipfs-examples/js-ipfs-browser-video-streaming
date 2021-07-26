@@ -1,5 +1,7 @@
 'use strict'
 
+const Ipfs = require('ipfs')
+
 /* global Hls Ipfs HlsjsIpfsLoader */
 /* eslint-env browser */
 document.addEventListener('DOMContentLoaded', async () => {
